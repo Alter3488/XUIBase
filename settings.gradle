@@ -1,2 +1,3 @@
+include ':lzzlibrary'
 include ':app'
 rootProject.name = "SuperUI"

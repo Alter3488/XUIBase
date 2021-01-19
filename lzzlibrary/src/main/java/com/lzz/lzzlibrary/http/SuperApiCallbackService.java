@@ -1,4 +1,4 @@
-package com.lzz.superui.http;
+package com.lzz.lzzlibrary.http;
 
 import com.lzy.okgo.model.Response;
 import com.lzy.okgo.request.base.Request;
@@ -9,7 +9,7 @@ import com.lzy.okgo.request.base.Request;
  * Created by: LuoZhuangZhuang
  * Date on: 2021/1/18 16:47
  */
-public interface ApiCallbackService<T> {
+public interface SuperApiCallbackService<T> {
 
     /**
      * 网络请求开始前，UI线程

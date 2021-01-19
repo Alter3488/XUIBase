@@ -1,4 +1,4 @@
-package com.lzz.superui.http;
+package com.lzz.lzzlibrary.http;
 
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.FileCallback;

@@ -1,18 +1,18 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.Alter3488'
 
 android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.lzz.superui"
-        minSdkVersion 21
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -28,7 +28,10 @@ android {
 }
 
 dependencies {
+
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    // OkHttp网络请求框架
+    implementation 'com.lzy.net:okgo:3.0.4'
 }

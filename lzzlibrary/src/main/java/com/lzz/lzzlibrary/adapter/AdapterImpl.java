@@ -1,4 +1,4 @@
-package com.lzz.superui.adapter;
+package com.lzz.lzzlibrary.adapter;
 
 import androidx.annotation.LayoutRes;
 
